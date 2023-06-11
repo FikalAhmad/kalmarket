@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: jakartaLight;
+    src: url(./fonts/+JakartaSansDisplay-Light.otf);
+  }
+  @font-face {
+    font-family: jakartaRegular;
+    src: url(./fonts/+JakartaSansDisplay-Regular.otf);
+  }
+  @font-face {
+    font-family: jakartaMedium;
+    src: url(./fonts/+JakartaSansDisplay-Medium.otf);
+  }
+  @font-face {
+    font-family: jakartaBold;
+    src: url(./fonts/+JakartaSansDisplay-Bold.otf);
+  }
+}
