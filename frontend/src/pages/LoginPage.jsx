@@ -43,7 +43,7 @@ const LoginPage = () => {
                     className="w-96 p-3 bg-blue-100 rounded-lg"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                  ></input>
+                  />
                 </label>
                 <label className="flex justify-between items-center mb-5">
                   Password:
@@ -52,7 +52,7 @@ const LoginPage = () => {
                     className="w-96 p-3 bg-blue-100 rounded-lg"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                  ></input>
+                  />
                 </label>
                 <Button value="Login" fill block />
               </form>

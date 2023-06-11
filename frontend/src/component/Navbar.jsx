@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
-// import Button from "./Button";
 
 export const NavbarHomepage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +57,7 @@ export const NavbarHomepage = () => {
           </li>
         </ul>
         <div className="flex">
-          <Button value="Login" link="/login" />
+          <Button value="Login" link="/login" className="mr-5" />
           <Button value="Daftar" link="/daftar" fill />
         </div>
       </nav>
