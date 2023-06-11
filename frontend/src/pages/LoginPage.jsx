@@ -58,7 +58,8 @@ const LoginPage = () => {
               </form>
             </div>
             <p className="flex justify-center mt-5">
-              Belum punya akun? <Link to="/daftar">Daftar Disini</Link>
+              Belum punya akun?&nbsp;
+              <Link to="/daftar">Daftar Disini</Link>
             </p>
           </div>
         </div>

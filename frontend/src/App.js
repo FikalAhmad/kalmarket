@@ -1,6 +1,8 @@
 import "./App.css";
 import "./style.css";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Homepage from "./pages/Homepage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
@@ -12,11 +14,11 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Homepage />}></Route>
-          <Route path="/login" element={<LoginPage />}></Route>
-          <Route path="/daftar" element={<RegisterPage />}></Route>
-          <Route path="/test" element={<ExperimentPage />}></Route>
-          <Route path="/slide" element={<Slide />}></Route>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/daftar" element={<RegisterPage />} />
+          <Route path="/test" element={<ExperimentPage />} />
+          <Route path="/slide" element={<Slide />} />
         </Routes>
       </Router>
     </div>
