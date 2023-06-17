@@ -10,7 +10,11 @@ const Subscribe = () => {
         <p>Subscribe untuk dapatkan diskon 15% untuk Pemesanan Pertama</p>
         <div>
           <form className="mt-5" action="">
-            <input className="rounded-l-lg w-96 h-10 p-3" type="email"></input>
+            <input
+              className="rounded-l-lg w-96 h-10 p-3"
+              type="email"
+              value="example@email.com"
+            ></input>
             <button
               className="px-8 py-2 text-white bg-black rounded-r-lg"
               type="submit"

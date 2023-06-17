@@ -8,7 +8,7 @@ const Accordion = ({ title, content }) => {
   };
 
   return (
-    <div className="bg-white rounded-md shadow-md mb-2">
+    <div className="bg-white rounded-md shadow-md mb-2 mx-[80px]">
       <div
         className="flex justify-between items-center px-4 py-3 cursor-pointer"
         onClick={toggleAccordion}
@@ -27,11 +27,9 @@ const AccordionList = ({ items }) => {
   ));
 
   return (
-    <>
-      <div className="">
-        <div className="p-4">{accordionItems}</div>
-      </div>
-    </>
+    <div className="">
+      <div className="p-4">{accordionItems}</div>
+    </div>
   );
 };
 

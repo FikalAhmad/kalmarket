@@ -9,7 +9,7 @@ import Slide from "./component/Slide";
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Router>
         <Routes>
           <Route path="/" element={<Homepage />}></Route>

@@ -1,7 +1,7 @@
 import React from "react";
 import AccordionList from "./AccordionList";
 
-function AccordionItem() {
+const AccordionItem = () => {
   const accordionItems = [
     {
       title: "Bagaimana Cara Membuat Akun Kal Market?",
@@ -49,10 +49,10 @@ function AccordionItem() {
   ];
 
   return (
-    <div className="App">
+    <div>
       <AccordionList items={accordionItems} />
     </div>
   );
-}
+};
 
 export default AccordionItem;
